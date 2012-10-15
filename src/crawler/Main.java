@@ -24,8 +24,8 @@ public class Main {
 		String query = "apple";  
 		
 		TweetCrawler twcrawler = new TweetCrawler(twitter, query);
-		
-		twcrawler.setPathToSave("/DATA/tweets");
+	
+		twcrawler.setPathToSave("data/tweets");
 		
 		twcrawler.start();
 		
